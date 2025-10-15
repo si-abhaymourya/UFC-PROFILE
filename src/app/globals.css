@@ -1,26 +1,65 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-ufc {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Professional gradient backgrounds */
+.gradient-dark {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+}
+
+.gradient-red {
+  background: linear-gradient(135deg, #991b1b 0%, #dc2626 50%, #991b1b 100%);
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+  border: 1px solid #374151;
+}
+
+/* Professional shadows */
+.shadow-ufc {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+}
+
+/* Chart container improvements */
+.chart-container {
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+/* Table improvements */
+.record-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.record-table th {
+  background: #f8fafc;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+
+/* Professional hover effects */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
 }

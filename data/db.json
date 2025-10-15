@@ -1,0 +1,255 @@
+{
+  "api": {
+    "fighter": {
+      "id": 1,
+      "name": "Alex Pereira",
+      "nickname": "Poatan",
+      "division": "Light Heavyweight",
+      "rank": "#6 PFP",
+      "status": "Active",
+      "titleHolder": true,
+      "record": "13-4-0",
+      "age": 38,
+      "height": "76.00",
+      "weight": "204.50",
+      "reach": "79.00",
+      "legReach": "44.00",
+      "fightingStyle": "Kickboxer",
+      "placeOfBirth": "São Bernardo do Campo, Brazil",
+      "trainsAt": "Teixeira MMA & Fitness-Bethel, CT",
+      "octagonDebut": "Nov. 6, 2021",
+      "videoSrc": "alex-pereira.mp4",
+      "tags": [
+        "Light Heavyweight Division",
+        "#6 PFP",
+        "Active",
+        "Title Holder"
+      ]
+    },
+    "spotlight": [
+      {
+        "id": 1,
+        "type": "news",
+        "title": "THE BIGGER PICTURE | UFC 320",
+        "description": "Breaking down the championship implications of Pereira's latest victory",
+        "image": "https://www.ufc.com/images/styles/card_advance_small_280x356/s3/2025-10/100425-Alex-Oereira-elbow-GettyImages-2239291321.jpg?itok=Ui3gCWzJ",
+        "actionText": "READ MORE",
+        "actionIcon": "arrow-right"
+      },
+      {
+        "id": 2,
+        "type": "video",
+        "title": "ABOUT LAST FIGHT | KNOCKOUT ANALYSIS",
+        "description": "Technical breakdown of Pereira's devastating knockout victory",
+        "image": "https://www.ufc.com/images/styles/card_advance_small_280x356/s3/2025-10/100325-UFC-320-embedded-ep-6.jpg?itok=7Jv2IfIx",
+        "actionText": "WATCH NOW",
+        "actionIcon": "arrow-right"
+      },
+      {
+        "id": 3,
+        "type": "news",
+        "title": "CHAMPION'S MINDSET | TRAINING INSIGHTS",
+        "description": "Exclusive look into Pereira's championship preparation",
+        "image": "https://www.ufc.com/images/styles/card_advance_small_280x356/s3/2025-10/100425-alex-pereira-presser-thumb.jpg?itok=wqvElFu6",
+        "actionText": "READ MORE",
+        "actionIcon": "arrow-right"
+      },
+      {
+        "id": 4,
+        "type": "video",
+        "title": "STRIKING MASTERCLASS | TECHNIQUE BREAKDOWN",
+        "description": "Analyzing Pereira's devastating striking arsenal",
+        "image": "https://www.ufc.com/images/styles/card_advance_small_280x356/s3/2025-10/100625-alex-pereira-hero.jpg?itok=bsmCLlwQ",
+        "actionText": "WATCH NOW",
+        "actionIcon": "arrow-right"
+      }
+    ],
+    "stats": {
+      "keyStats": {
+        "knockoutWins": 11,
+        "firstRoundFinishes": 5
+      },
+      "strikingAccuracy": {
+        "landed": 685,
+        "attempted": 1103,
+        "accuracy": 62
+      },
+      "takedownAccuracy": {
+        "landed": 1,
+        "attempted": 2,
+        "accuracy": 50
+      },
+      "perMinuteStats": {
+        "sigStrikesLanded": 5.16,
+        "sigStrikesAbsorbed": 3.50,
+        "sigStrikesDefense": 54,
+        "takedownDefense": 79
+      },
+      "strikeDistribution": {
+        "standing": {
+          "count": 554,
+          "percentage": 81
+        },
+        "clinch": {
+          "count": 72,
+          "percentage": 11
+        },
+        "ground": {
+          "count": 59,
+          "percentage": 9
+        }
+      },
+      "strikeTargets": {
+        "head": 323,
+        "body": 179,
+        "legs": 183
+      },
+      "winMethods": {
+        "koTko": 85,
+        "decision": 15,
+        "submission": 0
+      }
+    },
+    "fightHistory": [
+      {
+        "id": 1,
+        "opponent": "Magomed Ankalaev",
+        "opponentRank": "#2 Ranked",
+        "result": "WIN",
+        "method": "KO/TKO",
+        "methodDetails": "Punches",
+        "round": 1,
+        "event": "UFC 320",
+        "date": "Oct 12, 2024",
+        "action": "WATCH"
+      },
+      {
+        "id": 2,
+        "opponent": "Magomed Ankalaev",
+        "opponentRank": "#1 Ranked",
+        "result": "LOSS",
+        "method": "Decision",
+        "methodDetails": "Unanimous",
+        "round": 5,
+        "event": "UFC 300",
+        "date": "Apr 8, 2023",
+        "action": "WATCH"
+      },
+      {
+        "id": 3,
+        "opponent": "Israel Adesanya",
+        "opponentRank": "Former Champion",
+        "result": "WIN",
+        "method": "KO/TKO",
+        "methodDetails": "Punches",
+        "round": 2,
+        "event": "UFC 281",
+        "date": "Nov 12, 2022",
+        "action": "WATCH"
+      },
+      {
+        "id": 4,
+        "opponent": "Sean Strickland",
+        "opponentRank": "#4 Ranked",
+        "result": "WIN",
+        "method": "KO/TKO",
+        "methodDetails": "Punches",
+        "round": 1,
+        "event": "UFC 276",
+        "date": "Jul 2, 2022",
+        "action": "WATCH"
+      },
+      {
+        "id": 5,
+        "opponent": "Bruno Silva",
+        "opponentRank": "Unranked",
+        "result": "WIN",
+        "method": "Decision",
+        "methodDetails": "Unanimous",
+        "round": 3,
+        "event": "UFC Fight Night",
+        "date": "Mar 12, 2022",
+        "action": "WATCH"
+      }
+    ],
+    "tabs": {
+      "bio": {
+        "title": "BIO",
+        "content": {
+          "status": "ACTIVE",
+          "placeOfBirth": "SÃO BERNARDO DO CAMPO, BRAZIL",
+          "trainsAt": "TEIXEIRA MMA & FITNESS-BETHEL, CT",
+          "fightingStyle": "KICKBOXER",
+          "age": 38,
+          "height": "76.00",
+          "weight": "204.50",
+          "octagonDebut": "NOV. 6, 2021",
+          "reach": "79.00",
+          "legReach": "44.00"
+        }
+      },
+      "facts": {
+        "title": "FIGHTER FACTS",
+        "content": {
+          "achievements": [
+            "Former UFC Middleweight Champion",
+            "Current UFC Light Heavyweight Champion",
+            "Former Glory Middleweight Champion",
+            "Former Glory Light Heavyweight Champion",
+            "Only fighter to defeat Israel Adesanya twice"
+          ],
+          "background": "Alex Pereira began his combat sports career in kickboxing, where he achieved tremendous success before transitioning to mixed martial arts. His striking prowess and knockout power have made him one of the most feared fighters in the UFC."
+        }
+      },
+      "history": {
+        "title": "UFC HISTORY",
+        "content": {
+          "timeline": [
+            {
+              "date": "November 6, 2021",
+              "event": "UFC Debut - Defeated Andreas Michailidis via TKO"
+            },
+            {
+              "date": "November 12, 2022",
+              "event": "Won UFC Middleweight Championship vs Israel Adesanya"
+            },
+            {
+              "date": "April 8, 2023",
+              "event": "Lost Middleweight Championship to Israel Adesanya"
+            },
+            {
+              "date": "November 11, 2023",
+              "event": "Won UFC Light Heavyweight Championship vs Jiri Prochazka"
+            }
+          ]
+        }
+      },
+      "qa": {
+        "title": "Q&A",
+        "content": {
+          "questions": [
+            {
+              "question": "Q: What does \"Poatan\" mean?",
+              "answer": "A: \"Poatan\" is Alex Pereira's nickname, which means \"Stone Hand\" in Portuguese, referencing his powerful striking ability."
+            },
+            {
+              "question": "Q: How did Alex Pereira get into MMA?",
+              "answer": "A: Pereira transitioned from kickboxing to MMA after achieving great success in Glory Kickboxing, where he was a two-division champion."
+            },
+            {
+              "question": "Q: What is Alex Pereira's fighting style?",
+              "answer": "A: Pereira is primarily a striker with a kickboxing background, known for his devastating knockout power and technical striking."
+            }
+          ]
+        }
+      }
+    },
+    "icons": {
+      "mute": "M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z",
+      "unmute": "M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.983 5.983 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.984 3.984 0 00-1.172-2.828a1 1 0 010-1.415z",
+      "arrowLeft": "M15 19l-7-7 7-7",
+      "arrowRight": "M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z",
+      "play": "M8 5v10l8-5-8-5z"
+    }
+  }
+}
