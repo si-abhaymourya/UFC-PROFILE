@@ -89,9 +89,9 @@ If you want to use a separate API server:
 - Check for TypeScript errors
 
 ### Videos Not Loading?
-- Ensure video files are in `public/` folder
-- Check file sizes (Vercel has limits)
-- Use optimized video formats (MP4)
+- App now uses gradient background instead of video for better performance
+- If you want to add videos later, ensure they're under 10MB
+- Use optimized video formats (MP4) and consider hosting on CDN
 
 ### API Errors?
 - App uses static data in production (no API needed)
