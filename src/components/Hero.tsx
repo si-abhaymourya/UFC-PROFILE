@@ -69,6 +69,19 @@ export default function Hero({ fighter, icons }: HeroProps) {
         </div>
       </div>
 
+      {/* Mute/Unmute Button */}
+      <button
+        onClick={toggleMute}
+        className="fixed top-6 right-6 z-20 bg-black bg-opacity-70 hover:bg-opacity-90 text-white p-3 rounded-full transition-all duration-300 shadow-ufc"
+      >
+        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+          <path
+            fillRule="evenodd"
+            d={isMuted ? icons.mute : icons.unmute}
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
     </section>
   );
 }

@@ -89,9 +89,10 @@ If you want to use a separate API server:
 - Check for TypeScript errors
 
 ### Videos Not Loading?
-- App now uses gradient background instead of video for better performance
-- If you want to add videos later, ensure they're under 10MB
+- App uses a small placeholder video (99KB) for deployment
+- If you want to add your own videos, ensure they're under 10MB
 - Use optimized video formats (MP4) and consider hosting on CDN
+- Current video is a red placeholder - replace with your own content
 
 ### API Errors?
 - App uses static data in production (no API needed)
