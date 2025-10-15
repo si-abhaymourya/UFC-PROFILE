@@ -10,27 +10,19 @@ interface HeroProps {
 }
 
 export default function Hero({ fighter, icons }: HeroProps) {
-  const [isMuted, setIsMuted] = useState(true);
-
-  const toggleMute = () => {
-    setIsMuted(!isMuted);
-  };
 
   return (
     <section className="relative w-full h-[500px] sm:h-[750px] overflow-hidden group rounded-bl-[20px] rounded-br-[20px]">
-      <video
-        autoPlay
-        muted={isMuted}
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src={fighter.videoSrc} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {/* UFC-themed gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-red-900 to-black"></div>
+      
+      {/* UFC Pattern Overlay */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSIjMDAwMDAwIi8+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI0ZGRkZGRiIvPgo8cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI0ZGRkZGRiIvPgo8L3N2Zz4K')]"></div>
+      </div>
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
       {/* Content - HIDDEN by default, shows ON HOVER */}
       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 z-10">
@@ -69,19 +61,6 @@ export default function Hero({ fighter, icons }: HeroProps) {
         </div>
       </div>
 
-      {/* Mute/Unmute Button */}
-      <button
-        onClick={toggleMute}
-        className="fixed top-6 right-6 z-20 bg-black bg-opacity-70 hover:bg-opacity-90 text-white p-3 rounded-full transition-all duration-300 shadow-ufc"
-      >
-        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-          <path
-            fillRule="evenodd"
-            d={isMuted ? icons.mute : icons.unmute}
-            clipRule="evenodd"
-          />
-        </svg>
-      </button>
     </section>
   );
 }
